@@ -33,16 +33,25 @@
       z-index: -2;
     }
 
-    .overlay {
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 3em;
-      max-width: 720px;
-      margin: auto;
-      min-height: 100vh;
-      box-sizing: border-box;
-      color: #eee;
-      text-align: center;
-    }
+   .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 2em;
+}
+
+.overlay-inner {
+  max-width: 720px;
+  margin: auto;
+  color: #eee;
+  text-align: center;
+}
+
 
     h1 {
       text-align: center;
