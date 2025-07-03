@@ -12,7 +12,7 @@ document.addEventListener("selectstart", function (e) {
 document.addEventListener("copy", function (e) {
   if (!e.target.closest('#cusdis_thread')) {
     e.preventDefault();
-    alert("蜉蝣軍密報禁止傳閱");
+    alert("僅供閱覽");
   }
 });
 
